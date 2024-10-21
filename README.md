@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 👋 Hi, I'm Magdeline!
 👩🏻‍💻 Software Engineer sharing about my journey and learnings in tech<br>👩🏻‍🎓 Studied Computer Application at the Kannur University<br>🎨 Content Creator | Designer | Developer<br>🌷 #learninginpublic in my digital garden
 
 
