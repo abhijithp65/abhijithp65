@@ -1,88 +1,170 @@
-<h1 align="center">Hi 👋, I'm Abhijith P</h1>
-<h3 align="center">Software Engineer | Designer | Developer | Content Creator</h3>
+<div align="center">
 
-<p align="center">
-Building applications, designing experiences, and learning in public 🚀
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1a1a2e&height=120&section=header&text=&animation=fadeIn" width="100%"/>
 
----
+</div>
 
-## 👨‍💻 About Me
+<div align="center">
 
-- 💻 Software Engineer passionate about **building modern applications**
-- 🎓 Studied **Computer Applications at Kannur University**
-- 🎨 Creative enthusiast working in **design, development, and content creation**
-- 🌱 Currently exploring **Flutter, .NET, and modern web technologies**
-- 📖 Sharing my journey and learnings by **#learninginpublic**
+```
+  ┌─────────────────────────────────────────────────┐
+  │                                                 │
+  │        A B H I J I T H   P                     │
+  │        Flutter Developer  ·  Bangalore          │
+  │                                                 │
+  └─────────────────────────────────────────────────┘
+```
 
----
+</div>
 
-## 🌐 Connect With Me
+<div align="center">
 
-<p align="left">
-<a href="https://linkedin.com/in/abhijith-p-2273b6113" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/abhijithp65" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhijithp65.github.io-0f0f0f?style=flat-square&labelColor=e8e0d5&color=0f0f0f&logoColor=white)](https://abhijithp65.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-/abhijith--p-0f0f0f?style=flat-square&labelColor=e8e0d5&color=0f0f0f)](https://linkedin.com/in/abhijith-p-2273b6113)
+[![Email](https://img.shields.io/badge/Email-abhijithpinfo@gmail.com-0f0f0f?style=flat-square&labelColor=e8e0d5&color=0f0f0f)](mailto:abhijithpinfo@gmail.com)
+
+</div>
 
 ---
 
-## 🚀 Tech Stack
+<br/>
 
-### 💻 Development
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+<table>
+<tr>
+<td width="55%" valign="top">
 
-### 🎨 Design & Creativity
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
-![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white)
+### `whoami`
 
-### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+```yaml
+role:       Flutter Developer
+exp:        2+ years
+location:   Bangalore, India
+focus:      Cross-platform mobile apps
+             Fintech solutions
+             Clean Architecture
 
----
+currently:  Building production-grade apps
+            serving 50,000+ users
 
-## 📊 GitHub Statistics
+learning:   Always. Every day.
+```
 
-<p align="center">
+</td>
+<td width="45%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=abhijithp65&show_icons=true&theme=tokyonight" height="170"/>
+### `highlights`
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abhijithp65&theme=tokyonight" height="170"/>
+```
+▸  5+ production apps on Play Store
+▸  50,000+ active users
+▸  Zero security incidents
+▸  60% faster KYC completion
+▸  Delivered features 2 weeks early
+```
 
-</p>
+</td>
+</tr>
+</table>
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhijithp65&layout=compact&theme=tokyonight" height="160"/>
-</p>
-
----
-
-## 🏆 Achievements
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=abhijithp65&theme=tokyonight&no-frame=true&row=1&column=6"/>
-</p>
+<br/>
 
 ---
 
-## ✨ Developer Quote
+## Core Stack
 
-<p align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
-</p>
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
+
+<div align="center">
+
+`BLoC` &nbsp;·&nbsp; `Provider` &nbsp;·&nbsp; `Riverpod` &nbsp;·&nbsp; `Clean Architecture` &nbsp;·&nbsp; `MVVM` &nbsp;·&nbsp; `REST APIs` &nbsp;·&nbsp; `SSL Pinning`
+
+`Biometric Auth` &nbsp;·&nbsp; `Deep Linking` &nbsp;·&nbsp; `Push Notifications` &nbsp;·&nbsp; `Hive` &nbsp;·&nbsp; `Shared Preferences`
+
+</div>
+
+<br/>
 
 ---
 
-<p align="center">
-⭐️ From <a href="https://github.com/abhijithp65">Abhijith P</a>
-</p>
+## Selected Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Rise Pro** — *Alice Blue*
+> Mutual fund, IPO & NFO platform
+> Migrated Provider → BLoC · Biometric login
+> FCM notifications · Live NAV data
+
+</td>
+<td width="50%" valign="top">
+
+**Alice Blue eKYC**
+> End-to-end digital KYC for demat accounts
+> Hyperverge · Digio · SEBI/RBI compliant
+> 60% faster KYC completion
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**AB Pulse** — *Trading Insights*
+> Signals & subscription trading platform
+> CleverTap analytics · Payment gateway
+> Real-time trade alerts
+
+</td>
+<td width="50%" valign="top">
+
+**AliceBlue PFM**
+> Personal finance & mutual fund tracker
+> Setu One Money · Deep linking · Digio KYC
+> Aggregated financial data
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=abhijithp65&show_icons=true&theme=default&hide_border=true&bg_color=fafaf8&title_color=0f0f0f&text_color=444&icon_color=0f0f0f" height="160"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhijithp65&layout=compact&theme=default&hide_border=true&bg_color=fafaf8&title_color=0f0f0f&text_color=444" height="160"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=abhijithp65&theme=default&hide_border=true&background=fafaf8&stroke=e0ddd8&ring=0f0f0f&fire=c0392b&currStreakLabel=0f0f0f" height="150"/>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<sub>MCA · Kannur University &nbsp;·&nbsp; Building in public &nbsp;·&nbsp; Open to collaborate</sub>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%"/>
+
+</div>
