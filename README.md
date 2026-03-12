@@ -1,15 +1,244 @@
 <div align="center">
-<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjI4MCIgdmlld0JveD0iMCAwIDkwMCAyODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuYmd7ZmlsbDojMDIwNDA4fS5nbHtzdHJva2U6IzBkMWYxNDtzdHJva2Utd2lkdGg6LjU7ZmlsbDpub25lfS5jaXtzdHJva2U6IzAwZmY4ODtzdHJva2Utd2lkdGg6MTtmaWxsOm5vbmU7b3BhY2l0eTouMjJ9LmdsaW5le3N0cm9rZTojMDBmZjg4O3N0cm9rZS13aWR0aDoxLjI7ZmlsbDpub25lO2ZpbHRlcjp1cmwoI2dsb3cpfQogICAgICAubm17Zm9udC1mYW1pbHk6J0NvdXJpZXIgTmV3Jyxtb25vc3BhY2U7Zm9udC13ZWlnaHQ6OTAwO2ZvbnQtc2l6ZTo0NHB4O2xldHRlci1zcGFjaW5nOjE0cHh9CiAgICAgIC5zYntmb250LWZhbWlseTonQ291cmllciBOZXcnLG1vbm9zcGFjZTtmb250LXNpemU6MTEuNXB4O2ZpbGw6IzAwZmY4ODtsZXR0ZXItc3BhY2luZzo1cHh9CiAgICAgIC50Z3tmb250LWZhbWlseTonQ291cmllciBOZXcnLG1vbm9zcGFjZTtmb250LXNpemU6OXB4O2ZpbGw6IzAwNGQyYTtsZXR0ZXItc3BhY2luZzoycHh9CiAgICAgIC5jdHtmb250LWZhbWlseTonQ291cmllciBOZXcnLG1vbm9zcGFjZTtmb250LXNpemU6OHB4O2ZpbGw6IzAwZmY4ODQ0O2xldHRlci1zcGFjaW5nOjFweH0KICAgICAgLml0e2ZvbnQtZmFtaWx5OidDb3VyaWVyIE5ldycsbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMXB4O2ZvbnQtd2VpZ2h0OmJvbGR9CiAgICA8L3N0eWxlPgogICAgPGZpbHRlciBpZD0iZ2xvdyIgeD0iLTYwJSIgeT0iLTYwJSIgd2lkdGg9IjIyMCUiIGhlaWdodD0iMjIwJSI+CiAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjMuNSIgcmVzdWx0PSJiMSIvPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxLjUiIHJlc3VsdD0iYjIiLz4KICAgICAgPGZlTWVyZ2U+PGZlTWVyZ2VOb2RlIGluPSJiMSIvPjxmZU1lcmdlTm9kZSBpbj0iYjIiLz48ZmVNZXJnZU5vZGUgaW49IlNvdXJjZUdyYXBoaWMiLz48L2ZlTWVyZ2U+CiAgICA8L2ZpbHRlcj4KICAgIDxmaWx0ZXIgaWQ9ImFnbG93IiB4PSItNDAlIiB5PSItNDAlIiB3aWR0aD0iMTgwJSIgaGVpZ2h0PSIxODAlIj4KICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iOSIgcmVzdWx0PSJiMSIvPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0IiByZXN1bHQ9ImIyIi8+CiAgICAgIDxmZU1lcmdlPjxmZU1lcmdlTm9kZSBpbj0iYjEiLz48ZmVNZXJnZU5vZGUgaW49ImIyIi8+PGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9mZU1lcmdlPgogICAgPC9maWx0ZXI+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRnMSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGZmODgiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iNTUlIiBzdG9wLWNvbG9yPSIjMDBmZjg4IiBzdG9wLW9wYWNpdHk9Ii41Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBmZjg4IiBzdG9wLW9wYWNpdHk9IjEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0ZzIiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBlNWZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzAwZTVmZiIgc3RvcC1vcGFjaXR5PSIuNDUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGU1ZmYiIHN0b3Atb3BhY2l0eT0iLjkiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0ZzMiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZkNjAwIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iI2ZmZDYwMCIgc3RvcC1vcGFjaXR5PSIuNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZDYwMCIgc3RvcC1vcGFjaXR5PSIuODUiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0ZzQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWRlOWI2IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzFkZTliNiIgc3RvcC1vcGFjaXR5PSIuNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkZTliNiIgc3RvcC1vcGFjaXR5PSIuODUiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJuZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGNjNjYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2FhZmZjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwY2M2NiIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImZsIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDQwOCIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDIwNDA4IiBzdG9wLW9wYWNpdHk9IjAiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJmciIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMjA0MDgiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAyMDQwOCIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iYXVyYSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBmZjg4IiBzdG9wLW9wYWNpdHk9Ii4xOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwZmY4OCIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0iYWMiPjxjaXJjbGUgY3g9IjQ1MCIgY3k9IjEzNiIgcj0iNDciLz48L2NsaXBQYXRoPgogICAgPHBhdGggaWQ9Im9wMSIgZD0iTSA1MDIgMTM2IGEgNTIgNTIgMCAxIDEgLTAuMDAxIDAgWiIgZmlsbD0ibm9uZSIvPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjkwMCIgaGVpZ2h0PSIyODAiIGNsYXNzPSJiZyIvPgogIDwhLS0gR3JpZCBIIC0tPgogIDxsaW5lIHgxPSIwIiB5MT0iMzUiIHgyPSI5MDAiIHkyPSIzNSIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjAiIHkxPSI3MCIgeDI9IjkwMCIgeTI9IjcwIiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iMCIgeTE9IjEwNSIgeDI9IjkwMCIgeTI9IjEwNSIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjAiIHkxPSIxNDAiIHgyPSI5MDAiIHkyPSIxNDAiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSIwIiB5MT0iMTc1IiB4Mj0iOTAwIiB5Mj0iMTc1IiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iMCIgeTE9IjIxMCIgeDI9IjkwMCIgeTI9IjIxMCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjAiIHkxPSIyNDUiIHgyPSI5MDAiIHkyPSIyNDUiIGNsYXNzPSJnbCIvPgogIDwhLS0gR3JpZCBWIC0tPgogIDxsaW5lIHgxPSI3NSIgeTE9IjAiIHgyPSI3NSIgeTI9IjI4MCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjE1MCIgeTE9IjAiIHgyPSIxNTAiIHkyPSIyODAiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSIyMjUiIHkxPSIwIiB4Mj0iMjI1IiB5Mj0iMjgwIiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iMzAwIiB5MT0iMCIgeDI9IjMwMCIgeTI9IjI4MCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjM3NSIgeTE9IjAiIHgyPSIzNzUiIHkyPSIyODAiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSI0NTAiIHkxPSIwIiB4Mj0iNDUwIiB5Mj0iMjgwIiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iNTI1IiB5MT0iMCIgeDI9IjUyNSIgeTI9IjI4MCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjYwMCIgeTE9IjAiIHgyPSI2MDAiIHkyPSIyODAiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSI2NzUiIHkxPSIwIiB4Mj0iNjc1IiB5Mj0iMjgwIiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iNzUwIiB5MT0iMCIgeDI9Ijc1MCIgeTI9IjI4MCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjgyNSIgeTE9IjAiIHgyPSI4MjUiIHkyPSIyODAiIGNsYXNzPSJnbCIvPgoKICA8IS0tIENpcmN1aXQgdHJhY2VzIC0tPgogIDxwYXRoIGQ9Ik0gMCA1NSBMIDkwIDU1IEwgOTAgODggTCAxODUgODggTCAxODUgMTA1IEwgMjYwIDEwNSIgY2xhc3M9ImNpIi8+CiAgPHBhdGggZD0iTSAwIDE5MCBMIDc1IDE5MCBMIDc1IDE2OCBMIDE1NSAxNjggTCAxNTUgMTUwIEwgMjMwIDE1MCIgY2xhc3M9ImNpIi8+CiAgPHBhdGggZD0iTSA5MDAgNTUgTCA4MTAgNTUgTCA4MTAgODggTCA3MTUgODggTCA3MTUgMTA1IEwgNjQwIDEwNSIgY2xhc3M9ImNpIi8+CiAgPHBhdGggZD0iTSA5MDAgMTkwIEwgODI1IDE5MCBMIDgyNSAxNjggTCA3NDUgMTY4IEwgNzQ1IDE1MCBMIDY3MCAxNTAiIGNsYXNzPSJjaSIvPgogIDxwYXRoIGQ9Ik0gMCA1NSBMIDkwIDU1IEwgOTAgODggTCAxODUgODggTCAxODUgMTA1IEwgMjYwIDEwNSIgY2xhc3M9ImdsaW5lIiBzdHJva2UtZGFzaGFycmF5PSIxMCA1IiBvcGFjaXR5PSIuNTUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBmcm9tPSI3NSIgdG89IjAiIGR1cj0iMi4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+CiAgPHBhdGggZD0iTSA5MDAgNTUgTCA4MTAgNTUgTCA4MTAgODggTCA3MTUgODggTCA3MTUgMTA1IEwgNjQwIDEwNSIgY2xhc3M9ImdsaW5lIiBzdHJva2UtZGFzaGFycmF5PSIxMCA1IiBvcGFjaXR5PSIuNTUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBmcm9tPSIwIiB0bz0iNzUiIGR1cj0iMi44cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+CiAgPHBhdGggZD0iTSAwIDE5MCBMIDc1IDE5MCBMIDc1IDE2OCBMIDE1NSAxNjggTCAxNTUgMTUwIEwgMjMwIDE1MCIgY2xhc3M9ImdsaW5lIiBzdHJva2UtZGFzaGFycmF5PSI3IDQiIG9wYWNpdHk9Ii40Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgZnJvbT0iNjAiIHRvPSIwIiBkdXI9IjMuNHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9wYXRoPgogIDxwYXRoIGQ9Ik0gOTAwIDE5MCBMIDgyNSAxOTAgTCA4MjUgMTY4IEwgNzQ1IDE2OCBMIDc0NSAxNTAgTCA2NzAgMTUwIiBjbGFzcz0iZ2xpbmUiIHN0cm9rZS1kYXNoYXJyYXk9IjcgNCIgb3BhY2l0eT0iLjQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBmcm9tPSIwIiB0bz0iNjAiIGR1cj0iMy44cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+CgogIDwhLS0gTm9kZXMgLS0+CiAgPGNpcmNsZSBjeD0iOTAiIGN5PSI4OCIgcj0iMyIgZmlsbD0iIzAwZmY4OCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuMzsxOy4zIiBkdXI9IjIuMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+CiAgPGNpcmNsZSBjeD0iMTg1IiBjeT0iMTA1IiByPSIzIiBmaWxsPSIjMDBmZjg4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjM7MSIgZHVyPSIyLjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9IjgxMCIgY3k9Ijg4IiByPSIzIiBmaWxsPSIjMDBmZjg4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9Ii4zOzE7LjMiIGR1cj0iMi44cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT4KICA8Y2lyY2xlIGN4PSI3MTUiIGN5PSIxMDUiIHI9IjMiIGZpbGw9IiMwMGZmODgiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTsuMzsxIiBkdXI9IjIuOHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+CiAgPGNpcmNsZSBjeD0iNzUiIGN5PSIxNjgiIHI9IjIuNSIgZmlsbD0iIzAwZmY4OCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuMjsuOTsuMiIgZHVyPSIzLjRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9Ijc0NSIgY3k9IjE2OCIgcj0iMi41IiBmaWxsPSIjMDBmZjg4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9Ii45Oy4yOy45IiBkdXI9IjMuOHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+CgogIDwhLS0gTUVURU9SIDE6IEZsdXR0ZXIgLS0+CiAgPGcgb3BhY2l0eT0iLjk1Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSItMTEwLC0yMDsgOTUwLDI0MCIgZHVyPSI0cyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iLTg4IiB5PSItMy41IiB3aWR0aD0iODgiIGhlaWdodD0iMyIgZmlsbD0idXJsKCN0ZzEpIiByeD0iMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8Y2lyY2xlIHI9IjEyIiBmaWxsPSIjMDI1NjlCIiBzdHJva2U9IiM1NEM1RjgiIHN0cm9rZS13aWR0aD0iMS4yIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii01LjUiIHk9IjUiIGNsYXNzPSJpdCIgZmlsbD0iIzU0QzVGOCIgZm9udC1zaXplPSIxNCI+RjwvdGV4dD4KICA8L2c+CiAgPCEtLSBNRVRFT1IgMjogRGFydCAtLT4KICA8ZyBvcGFjaXR5PSIuOSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIHZhbHVlcz0iMTAxMCwtMTU7IC05MCwyNjAiIGR1cj0iNC41cyIgYmVnaW49IjEuNHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIi8+CiAgICA8cmVjdCB4PSI0IiB5PSItMy41IiB3aWR0aD0iODgiIGhlaWdodD0iMyIgZmlsbD0idXJsKCN0ZzIpIiByeD0iMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIiB0cmFuc2Zvcm09InNjYWxlKC0xLDEpIi8+CiAgICA8Y2lyY2xlIHI9IjEyIiBmaWxsPSIjMDE3NUMyIiBzdHJva2U9IiMwMGU1ZmYiIHN0cm9rZS13aWR0aD0iMS4yIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii01LjUiIHk9IjUiIGNsYXNzPSJpdCIgZmlsbD0iIzAwZTVmZiIgZm9udC1zaXplPSIxMyI+RDwvdGV4dD4KICA8L2c+CiAgPCEtLSBNRVRFT1IgMzogRmlyZWJhc2UgLS0+CiAgPGcgb3BhY2l0eT0iLjkyIj48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSIxODAsLTQ1OyA5ODAsMzAwIiBkdXI9IjVzIiBiZWdpbj0iMC43cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGNhbGNNb2RlPSJsaW5lYXIiLz4KICAgIDxyZWN0IHg9Ii04MiIgeT0iLTMiIHdpZHRoPSI4MiIgaGVpZ2h0PSIyLjgiIGZpbGw9InVybCgjdGczKSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIvPgogICAgPGNpcmNsZSByPSIxMiIgZmlsbD0iIzFBMUEyRSIgc3Ryb2tlPSIjRkZDQTI4IiBzdHJva2Utd2lkdGg9IjEuMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8dGV4dCB4PSItNiIgeT0iNiIgZm9udC1zaXplPSIxNCIgZmlsbD0iI0ZGQ0EyOCI+JiN4MUY1MjU7PC90ZXh0PgogIDwvZz4KICA8IS0tIE1FVEVPUiA0OiBHaXQgLS0+CiAgPGcgb3BhY2l0eT0iLjg4Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSItMTAwLDEwNTsgMTAxMCwxODUiIGR1cj0iMy44cyIgYmVnaW49IjIuMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIi8+CiAgICA8cmVjdCB4PSItNzYiIHk9Ii0zIiB3aWR0aD0iNzYiIGhlaWdodD0iMi41IiBmaWxsPSJ1cmwoI3RnMSkiIHJ4PSIyIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDxjaXJjbGUgcj0iMTEiIGZpbGw9IiNGMDUwMzMiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii05IiB5PSI0LjUiIGNsYXNzPSJpdCIgZmlsbD0iI2ZmZiIgZm9udC1zaXplPSI5Ij5HSVQ8L3RleHQ+CiAgPC9nPgogIDwhLS0gTUVURU9SIDU6IENvZGUgLS0+CiAgPGcgb3BhY2l0eT0iLjg1Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSIxMDYwLDY1OyAtNjAsMTk1IiBkdXI9IjUuMnMiIGJlZ2luPSIwLjNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iNCIgeT0iLTMiIHdpZHRoPSI4MCIgaGVpZ2h0PSIyLjUiIGZpbGw9InVybCgjdGcyKSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIgdHJhbnNmb3JtPSJzY2FsZSgtMSwxKSIvPgogICAgPGNpcmNsZSByPSIxMSIgZmlsbD0iIzBkMWYxNCIgc3Ryb2tlPSIjMDBlNWZmIiBzdHJva2Utd2lkdGg9IjEuMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8dGV4dCB4PSItNy41IiB5PSI0LjUiIGNsYXNzPSJpdCIgZmlsbD0iIzAwZTVmZiIgZm9udC1zaXplPSI5Ij4mbHQ7LyZndDs8L3RleHQ+CiAgPC9nPgogIDwhLS0gTUVURU9SIDY6IEdlYXIgLS0+CiAgPGcgb3BhY2l0eT0iLjgyIj48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSI3MjAsLTUwOyA1MCwzMTAiIGR1cj0iNnMiIGJlZ2luPSIxLjhzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iLTcyIiB5PSItMi41IiB3aWR0aD0iNzIiIGhlaWdodD0iMiIgZmlsbD0idXJsKCN0ZzQpIiByeD0iMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8Y2lyY2xlIHI9IjExIiBmaWxsPSIjMTYxQjIyIiBzdHJva2U9IiMxZGU5YjYiIHN0cm9rZS13aWR0aD0iMS4yIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii02IiB5PSI1IiBmb250LXNpemU9IjE0IiBmaWxsPSIjMWRlOWI2Ij4mI3gyNjk5OzwvdGV4dD4KICA8L2c+CiAgPCEtLSBNRVRFT1IgNzogQVBJIC0tPgogIDxnIG9wYWNpdHk9Ii44Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSIxMDAwLDIyMDsgLTgwLDU1IiBkdXI9IjQuMnMiIGJlZ2luPSIzLjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iNCIgeT0iLTIuNSIgd2lkdGg9IjcwIiBoZWlnaHQ9IjIiIGZpbGw9InVybCgjdGc0KSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIgdHJhbnNmb3JtPSJzY2FsZSgtMSwxKSIvPgogICAgPGNpcmNsZSByPSIxMSIgZmlsbD0iIzAwNGQyYSIgc3Ryb2tlPSIjMWRlOWI2IiBzdHJva2Utd2lkdGg9IjEuMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8dGV4dCB4PSItMTAiIHk9IjQiIGNsYXNzPSJpdCIgZmlsbD0iIzFkZTliNiIgZm9udC1zaXplPSI4Ij5BUEk8L3RleHQ+CiAgPC9nPgogIDwhLS0gTUVURU9SIDg6IFN0YXIgLS0+CiAgPGcgb3BhY2l0eT0iLjc1Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSItODAsMjA7IDEwMDAsMTIwIiBkdXI9IjdzIiBiZWdpbj0iMC45cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGNhbGNNb2RlPSJsaW5lYXIiLz4KICAgIDxyZWN0IHg9Ii02NSIgeT0iLTIiIHdpZHRoPSI2NSIgaGVpZ2h0PSIxLjgiIGZpbGw9InVybCgjdGcxKSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIvPgogICAgPGNpcmNsZSByPSIxMCIgZmlsbD0iIzBhMWEwZiIgc3Ryb2tlPSIjMDBmZjg4IiBzdHJva2Utd2lkdGg9IjEiIGZpbHRlcj0idXJsKCNnbG93KSIvPgogICAgPHRleHQgeD0iLTUuNSIgeT0iNSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzAwZmY4OCI+JiN4MjYwNTs8L3RleHQ+CiAgPC9nPgoKICA8IS0tIEFWQVRBUjogYXVyYSAtLT4KICA8Y2lyY2xlIGN4PSI0NTAiIGN5PSIxMzYiIHI9Ijc0IiBmaWxsPSJ1cmwoI2F1cmEpIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiB2YWx1ZXM9IjY4OzgwOzY4IiBkdXI9IjNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iLjc7LjI7LjciIGR1cj0iM3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+CiAgPCEtLSBvdXRlciBzcGlubmluZyByaW5nIC0tPgogIDxjaXJjbGUgY3g9IjQ1MCIgY3k9IjEzNiIgcj0iNjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtZGFzaGFycmF5PSI5IDYiIG9wYWNpdHk9Ii41NSIgZmlsdGVyPSJ1cmwoI2dsb3cpIj48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCA0NTAgMTM2IiB0bz0iMzYwIDQ1MCAxMzYiIGR1cj0iMTBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPgogIDwhLS0gaW5uZXIgY291bnRlciByaW5nIC0tPgogIDxjaXJjbGUgY3g9IjQ1MCIgY3k9IjEzNiIgcj0iNTciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZTVmZiIgc3Ryb2tlLXdpZHRoPSIuNyIgc3Ryb2tlLWRhc2hhcnJheT0iNCA5IiBvcGFjaXR5PSIuMzUiPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBmcm9tPSIzNjAgNDUwIDEzNiIgdG89IjAgNDUwIDEzNiIgZHVyPSI3cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT4KICA8IS0tIHNvbGlkIGdsb3cgcmluZyAtLT4KICA8Y2lyY2xlIGN4PSI0NTAiIGN5PSIxMzYiIHI9IjUxIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMGZmODgiIHN0cm9rZS13aWR0aD0iMS44IiBvcGFjaXR5PSIuOSIgZmlsdGVyPSJ1cmwoI2dsb3cpIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9Ii42OzE7LjYiIGR1cj0iMi41cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT4KICA8IS0tIG9yYml0IGRvdCAxIC0tPgogIDxjaXJjbGUgcj0iNC41IiBmaWxsPSIjMDBmZjg4IiBmaWx0ZXI9InVybCgjZ2xvdykiPjxhbmltYXRlTW90aW9uIGR1cj0iNHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48bXBhdGggeGxpbms6aHJlZj0iI29wMSIvPjwvYW5pbWF0ZU1vdGlvbj48L2NpcmNsZT4KICA8IS0tIG9yYml0IGRvdCAyIC0tPgogIDxjaXJjbGUgcj0iMyIgZmlsbD0iIzAwZTVmZiIgb3BhY2l0eT0iLjgiPjxhbmltYXRlTW90aW9uIGR1cj0iNHMiIGJlZ2luPSItMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48bXBhdGggeGxpbms6aHJlZj0iI29wMSIvPjwvYW5pbWF0ZU1vdGlvbj48L2NpcmNsZT4KICA8IS0tIG9yYml0IGRvdCAzIC0tPgogIDxjaXJjbGUgcj0iMiIgZmlsbD0iIzFkZTliNiIgb3BhY2l0eT0iLjYiPjxhbmltYXRlTW90aW9uIGR1cj0iNHMiIGJlZ2luPSItMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48bXBhdGggeGxpbms6aHJlZj0iI29wMSIvPjwvYW5pbWF0ZU1vdGlvbj48L2NpcmNsZT4KICA8IS0tIGF2YXRhciBiZyAtLT4KICA8Y2lyY2xlIGN4PSI0NTAiIGN5PSIxMzYiIHI9IjQ3IiBmaWxsPSIjMGQxZjE0Ii8+CiAgPCEtLSBnaXRodWIgYXZhdGFyIGltYWdlIC0tPgogIDxpbWFnZSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vYWJoaWppdGhwNjUucG5nIiB4PSI0MDMiIHk9Ijg5IiB3aWR0aD0iOTQiIGhlaWdodD0iOTQiIGNsaXAtcGF0aD0idXJsKCNhYykiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIi8+CiAgPCEtLSBzY2FuIGxpbmUgLS0+CiAgPGNsaXBQYXRoIGlkPSJhc2MiPjxjaXJjbGUgY3g9IjQ1MCIgY3k9IjEzNiIgcj0iNDciLz48L2NsaXBQYXRoPgogIDxyZWN0IHg9IjQwMyIgeT0iODUiIHdpZHRoPSI5NCIgaGVpZ2h0PSI1IiBmaWxsPSIjMDBmZjg4IiBvcGFjaXR5PSIuMSIgY2xpcC1wYXRoPSJ1cmwoI2FzYykiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InkiIGZyb209Ijg1IiB0bz0iMTg1IiBkdXI9IjIuMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9yZWN0PgogIDxjaXJjbGUgY3g9IjQ1MCIgY3k9IjEzNiIgcj0iNDciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIuNiIgb3BhY2l0eT0iLjQiLz4KCiAgPCEtLSBOYW1lIHRleHQgLS0+CiAgPHRleHQgeD0iNDUwIiB5PSIyMjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJubSIgZmlsbD0idXJsKCNuZykiIGZpbHRlcj0idXJsKCNnbG93KSI+QUJISUpJVEggUDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iLjg4OzE7Ljg4IiBkdXI9IjRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvdGV4dD4KICA8dGV4dCB4PSI0NTAiIHk9IjI0NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNiIj5GTFVUVEVSIERFVkVMT1BFUiDCtyBCQU5HQUxPUkUgwrcgSU5ESUE8L3RleHQ+CiAgPHRleHQgeD0iNDUwIiB5PSIyNjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJ0ZyI+WyBGSU5URUNIIMK3IENST1NTLVBMQVRGT1JNIMK3IENMRUFOIEFSQ0hJVEVDVFVSRSDCtyA1MEsrIFVTRVJTIF08L3RleHQ+CgogIDwhLS0gQ29ybmVycyAtLT4KICA8cGF0aCBkPSJNIDIyIDEyIEwgMTAgMTIgTCAxMCAyOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmZjg4IiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iLjkiLz4KICA8cGF0aCBkPSJNIDg3OCAxMiBMIDg5MCAxMiBMIDg5MCAyOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmZjg4IiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iLjkiLz4KICA8cGF0aCBkPSJNIDIyIDI2OCBMIDEwIDI2OCBMIDEwIDI1MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmZjg4IiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iLjkiLz4KICA8cGF0aCBkPSJNIDg3OCAyNjggTCA4OTAgMjY4IEwgODkwIDI1MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmZjg4IiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iLjkiLz4KICA8dGV4dCB4PSIxNCIgeT0iMTAiIGNsYXNzPSJjdCI+U1lTOklOSVQ8L3RleHQ+CiAgPHRleHQgeD0iODAwIiB5PSIxMCIgY2xhc3M9ImN0Ij5WRVI6My4wLjI1PC90ZXh0PgogIDx0ZXh0IHg9IjE0IiB5PSIyNzgiIGNsYXNzPSJjdCI+REVWOkFDVElWRTwvdGV4dD4KICA8dGV4dCB4PSI3NjAiIHk9IjI3OCIgY2xhc3M9ImN0Ij5TVEFUVVM6T05MSU5FICYjeDI1Q0Y7PC90ZXh0PgoKICA8IS0tIEZ1bGwgc2NhbiAtLT4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjQiIGZpbGw9IiMwMGZmODgiIG9wYWNpdHk9Ii4wMjIiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InkiIGZyb209Ii00IiB0bz0iMjg0IiBkdXI9IjQuNXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9yZWN0PgogIDwhLS0gRWRnZSBmYWRlcyAtLT4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjI4MCIgZmlsbD0idXJsKCNmbCkiLz4KICA8cmVjdCB4PSI3NTAiIHk9IjAiIHdpZHRoPSIxNTAiIGhlaWdodD0iMjgwIiBmaWxsPSJ1cmwoI2ZyKSIvPgo8L3N2Zz4K" width="100%" alt="Abhijith P — Flutter Developer"/>
-</div>
+
+<!--  TOP BANNER  -->
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style>
+.bg{fill:#020408}.gl{stroke:#0d1f14;stroke-width:.5;fill:none}
+.ci{stroke:#00ff88;stroke-width:1;fill:none;opacity:.22}
+.gline{stroke:#00ff88;stroke-width:1.2;fill:none;filter:url(#glow)}
+.nm{font-family:'Courier New',monospace;font-weight:900;font-size:44px;letter-spacing:14px}
+.sb{font-family:'Courier New',monospace;font-size:11.5px;fill:#00ff88;letter-spacing:5px}
+.tg{font-family:'Courier New',monospace;font-size:9px;fill:#004d2a;letter-spacing:2px}
+.ct{font-family:'Courier New',monospace;font-size:8px;fill:#00ff8844;letter-spacing:1px}
+.it{font-family:'Courier New',monospace;font-size:11px;font-weight:bold}
+</style>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="3.5" result="b1"/>
+  <feGaussianBlur stdDeviation="1.5" result="b2"/>
+  <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="tg1" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00ff88" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00ff88" stop-opacity=".5"/>
+  <stop offset="100%" stop-color="#00ff88" stop-opacity="1"/>
+</linearGradient>
+<linearGradient id="tg2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00e5ff" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00e5ff" stop-opacity=".45"/>
+  <stop offset="100%" stop-color="#00e5ff" stop-opacity=".9"/>
+</linearGradient>
+<linearGradient id="tg3" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#ffd600" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#ffd600" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#ffd600" stop-opacity=".85"/>
+</linearGradient>
+<linearGradient id="tg4" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#1de9b6" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#1de9b6" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#1de9b6" stop-opacity=".85"/>
+</linearGradient>
+<linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00cc66"/>
+  <stop offset="50%"  stop-color="#aaffcc"/>
+  <stop offset="100%" stop-color="#00cc66"/>
+</linearGradient>
+<linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="1"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="fr" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="1"/>
+</linearGradient>
+<radialGradient id="aura" cx="50%" cy="50%" r="50%">
+  <stop offset="0%"   stop-color="#00ff88" stop-opacity=".18"/>
+  <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="ac"><circle cx="450" cy="136" r="47"/></clipPath>
+<path id="op1" d="M 502 136 a 52 52 0 1 1 -0.001 0 Z" fill="none"/>
+</defs>
+
+<!-- BG -->
+<rect width="900" height="280" class="bg"/>
+
+<!-- Grid H -->
+<line x1="0" y1="35"  x2="900" y2="35"  class="gl"/>
+<line x1="0" y1="70"  x2="900" y2="70"  class="gl"/>
+<line x1="0" y1="105" x2="900" y2="105" class="gl"/>
+<line x1="0" y1="140" x2="900" y2="140" class="gl"/>
+<line x1="0" y1="175" x2="900" y2="175" class="gl"/>
+<line x1="0" y1="210" x2="900" y2="210" class="gl"/>
+<line x1="0" y1="245" x2="900" y2="245" class="gl"/>
+<!-- Grid V -->
+<line x1="75"  y1="0" x2="75"  y2="280" class="gl"/>
+<line x1="150" y1="0" x2="150" y2="280" class="gl"/>
+<line x1="225" y1="0" x2="225" y2="280" class="gl"/>
+<line x1="300" y1="0" x2="300" y2="280" class="gl"/>
+<line x1="375" y1="0" x2="375" y2="280" class="gl"/>
+<line x1="450" y1="0" x2="450" y2="280" class="gl"/>
+<line x1="525" y1="0" x2="525" y2="280" class="gl"/>
+<line x1="600" y1="0" x2="600" y2="280" class="gl"/>
+<line x1="675" y1="0" x2="675" y2="280" class="gl"/>
+<line x1="750" y1="0" x2="750" y2="280" class="gl"/>
+<line x1="825" y1="0" x2="825" y2="280" class="gl"/>
+
+<!-- Circuit static -->
+<path d="M 0 55 L 90 55 L 90 88 L 185 88 L 185 105 L 260 105" class="ci"/>
+<path d="M 0 190 L 75 190 L 75 168 L 155 168 L 155 150 L 230 150" class="ci"/>
+<path d="M 900 55 L 810 55 L 810 88 L 715 88 L 715 105 L 640 105" class="ci"/>
+<path d="M 900 190 L 825 190 L 825 168 L 745 168 L 745 150 L 670 150" class="ci"/>
+
+<!-- Circuit animated -->
+<path d="M 0 55 L 90 55 L 90 88 L 185 88 L 185 105 L 260 105" class="gline" stroke-dasharray="10 5" opacity=".55">
+  <animate attributeName="stroke-dashoffset" from="75" to="0" dur="2.2s" repeatCount="indefinite"/>
+</path>
+<path d="M 900 55 L 810 55 L 810 88 L 715 88 L 715 105 L 640 105" class="gline" stroke-dasharray="10 5" opacity=".55">
+  <animate attributeName="stroke-dashoffset" from="0" to="75" dur="2.8s" repeatCount="indefinite"/>
+</path>
+<path d="M 0 190 L 75 190 L 75 168 L 155 168 L 155 150 L 230 150" class="gline" stroke-dasharray="7 4" opacity=".4">
+  <animate attributeName="stroke-dashoffset" from="60" to="0" dur="3.4s" repeatCount="indefinite"/>
+</path>
+<path d="M 900 190 L 825 190 L 825 168 L 745 168 L 745 150 L 670 150" class="gline" stroke-dasharray="7 4" opacity=".4">
+  <animate attributeName="stroke-dashoffset" from="0" to="60" dur="3.8s" repeatCount="indefinite"/>
+</path>
+
+<!-- Nodes -->
+<circle cx="90"  cy="88"  r="3" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="185" cy="105" r="3" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="810" cy="88"  r="3" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="715" cy="105" r="3" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="75"  cy="168" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".2;.9;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="745" cy="168" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".9;.2;.9" dur="3.8s" repeatCount="indefinite"/></circle>
+
+<!-- METEOR 1: Flutter F — top-left to bottom-right, green -->
+<g opacity=".95">
+  <animateTransform attributeName="transform" type="translate" values="-110,-20; 950,240" dur="4s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-88" y="-3.5" width="88" height="3" fill="url(#tg1)" rx="2" filter="url(#glow)"/>
+  <circle r="12" fill="#02569B" stroke="#54C5F8" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-5.5" y="5" class="it" fill="#54C5F8" font-size="14">F</text>
+</g>
+<!-- METEOR 2: Dart D — top-right to bottom-left, cyan -->
+<g opacity=".9">
+  <animateTransform attributeName="transform" type="translate" values="1010,-15; -90,260" dur="4.5s" begin="1.4s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-3.5" width="88" height="3" fill="url(#tg2)" rx="2" filter="url(#glow)" transform="scale(-1,1)"/>
+  <circle r="12" fill="#0175C2" stroke="#00e5ff" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-5.5" y="5" class="it" fill="#00e5ff" font-size="13">D</text>
+</g>
+<!-- METEOR 3: Firebase — steep, gold -->
+<g opacity=".92">
+  <animateTransform attributeName="transform" type="translate" values="180,-45; 980,300" dur="5s" begin="0.7s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-82" y="-3" width="82" height="2.8" fill="url(#tg3)" rx="2" filter="url(#glow)"/>
+  <circle r="12" fill="#1A1A2E" stroke="#FFCA28" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-6" y="6" font-size="14" fill="#FFCA28">&#x1F525;</text>
+</g>
+<!-- METEOR 4: Git — shallow left to right, green -->
+<g opacity=".88">
+  <animateTransform attributeName="transform" type="translate" values="-100,105; 1010,185" dur="3.8s" begin="2.2s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-76" y="-3" width="76" height="2.5" fill="url(#tg1)" rx="2" filter="url(#glow)"/>
+  <circle r="11" fill="#F05033" stroke="#00ff88" stroke-width="1" filter="url(#glow)"/>
+  <text x="-9" y="4.5" class="it" fill="#fff" font-size="9">GIT</text>
+</g>
+<!-- METEOR 5: Code — right to left mid, cyan -->
+<g opacity=".85">
+  <animateTransform attributeName="transform" type="translate" values="1060,65; -60,195" dur="5.2s" begin="0.3s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-3" width="80" height="2.5" fill="url(#tg2)" rx="2" filter="url(#glow)" transform="scale(-1,1)"/>
+  <circle r="11" fill="#0d1f14" stroke="#00e5ff" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-7.5" y="4.5" class="it" fill="#00e5ff" font-size="9">&lt;/&gt;</text>
+</g>
+<!-- METEOR 6: Gear — right to left upper, teal -->
+<g opacity=".82">
+  <animateTransform attributeName="transform" type="translate" values="720,-50; 50,310" dur="6s" begin="1.8s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-72" y="-2.5" width="72" height="2" fill="url(#tg4)" rx="2" filter="url(#glow)"/>
+  <circle r="11" fill="#161B22" stroke="#1de9b6" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-6" y="5" font-size="14" fill="#1de9b6">&#x2699;</text>
+</g>
+<!-- METEOR 7: API — right to left low, teal -->
+<g opacity=".8">
+  <animateTransform attributeName="transform" type="translate" values="1000,220; -80,55" dur="4.2s" begin="3.1s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-2.5" width="70" height="2" fill="url(#tg4)" rx="2" filter="url(#glow)" transform="scale(-1,1)"/>
+  <circle r="11" fill="#004d2a" stroke="#1de9b6" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="-10" y="4" class="it" fill="#1de9b6" font-size="8">API</text>
+</g>
+<!-- METEOR 8: Star — slow arc, green -->
+<g opacity=".75">
+  <animateTransform attributeName="transform" type="translate" values="-80,20; 1000,120" dur="7s" begin="0.9s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-65" y="-2" width="65" height="1.8" fill="url(#tg1)" rx="2" filter="url(#glow)"/>
+  <circle r="10" fill="#0a1a0f" stroke="#00ff88" stroke-width="1" filter="url(#glow)"/>
+  <text x="-5.5" y="5" font-size="13" fill="#00ff88">&#x2605;</text>
+</g>
+
+<!-- AVATAR: aura pulse -->
+<circle cx="450" cy="136" r="74" fill="url(#aura)">
+  <animate attributeName="r"       values="68;80;68"    dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".7;.2;.7"    dur="3s" repeatCount="indefinite"/>
+</circle>
+<!-- outer spinning dashed ring -->
+<circle cx="450" cy="136" r="64" fill="none" stroke="#00ff88" stroke-width="1" stroke-dasharray="9 6" opacity=".55" filter="url(#glow)">
+  <animateTransform attributeName="transform" type="rotate" from="0 450 136" to="360 450 136" dur="10s" repeatCount="indefinite"/>
+</circle>
+<!-- inner counter-spin ring -->
+<circle cx="450" cy="136" r="57" fill="none" stroke="#00e5ff" stroke-width=".7" stroke-dasharray="4 9" opacity=".35">
+  <animateTransform attributeName="transform" type="rotate" from="360 450 136" to="0 450 136" dur="7s" repeatCount="indefinite"/>
+</circle>
+<!-- solid glow ring -->
+<circle cx="450" cy="136" r="51" fill="none" stroke="#00ff88" stroke-width="1.8" opacity=".9" filter="url(#glow)">
+  <animate attributeName="opacity" values=".6;1;.6" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+<!-- orbit dot 1 -->
+<circle r="4.5" fill="#00ff88" filter="url(#glow)">
+  <animateMotion dur="4s" repeatCount="indefinite"><mpath xlink:href="#op1"/></animateMotion>
+</circle>
+<!-- orbit dot 2 -->
+<circle r="3" fill="#00e5ff" opacity=".8">
+  <animateMotion dur="4s" begin="-2s" repeatCount="indefinite"><mpath xlink:href="#op1"/></animateMotion>
+</circle>
+<!-- orbit dot 3 -->
+<circle r="2" fill="#1de9b6" opacity=".6">
+  <animateMotion dur="4s" begin="-1s" repeatCount="indefinite"><mpath xlink:href="#op1"/></animateMotion>
+</circle>
+<!-- avatar bg circle -->
+<circle cx="450" cy="136" r="47" fill="#0d1f14"/>
+<!-- AVATAR IMAGE — replace src with your base64 after running embed_avatar.py -->
+<image href="https://github.com/abhijithp65.png" x="403" y="89" width="94" height="94" clip-path="url(#ac)" preserveAspectRatio="xMidYMid slice"/>
+<!-- scan line -->
+<clipPath id="asc"><circle cx="450" cy="136" r="47"/></clipPath>
+<rect x="403" y="85" width="94" height="5" fill="#00ff88" opacity=".1" clip-path="url(#asc)">
+  <animate attributeName="y" from="85" to="185" dur="2.2s" repeatCount="indefinite"/>
+</rect>
+<circle cx="450" cy="136" r="47" fill="none" stroke="#00ff88" stroke-width=".6" opacity=".4"/>
+
+<!-- Name + subtitle -->
+<text x="450" y="224" text-anchor="middle" class="nm" fill="url(#ng)" filter="url(#glow)">
+  ABHIJITH P<animate attributeName="opacity" values=".88;1;.88" dur="4s" repeatCount="indefinite"/>
+</text>
+<text x="450" y="247" text-anchor="middle" class="sb">FLUTTER DEVELOPER · BANGALORE · INDIA</text>
+<text x="450" y="263" text-anchor="middle" class="tg">[ FINTECH · CROSS-PLATFORM · CLEAN ARCHITECTURE · 50K+ USERS ]</text>
+
+<!-- Corner brackets -->
+<path d="M 22 12 L 10 12 L 10 28"   fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 878 12 L 890 12 L 890 28" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 22 268 L 10 268 L 10 252"   fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 878 268 L 890 268 L 890 252" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<text x="14"  y="10"  class="ct">SYS:INIT</text>
+<text x="800" y="10"  class="ct">VER:3.0.25</text>
+<text x="14"  y="278" class="ct">DEV:ACTIVE</text>
+<text x="760" y="278" class="ct">STATUS:ONLINE &#x25CF;</text>
+
+<!-- Full scanline + edge fades -->
+<rect x="0" y="0" width="900" height="4" fill="#00ff88" opacity=".022">
+  <animate attributeName="y" from="-4" to="284" dur="4.5s" repeatCount="indefinite"/>
+</rect>
+<rect x="0"   y="0" width="150" height="280" fill="url(#fl)"/>
+<rect x="750" y="0" width="150" height="280" fill="url(#fr)"/>
+</svg>
 
 <br/>
-
-<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-abhijithp65.github.io-00ff88?style=flat-square&labelColor=020408&color=020408)](https://abhijithp65.github.io/)&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/◈_LINKEDIN-/abhijith--p-00ff88?style=flat-square&labelColor=020408&color=020408)](https://linkedin.com/in/abhijith-p-2273b6113)&nbsp;&nbsp;
 [![Email](https://img.shields.io/badge/◈_MAIL-abhijithpinfo@gmail.com-00ff88?style=flat-square&labelColor=020408&color=020408)](mailto:abhijithpinfo@gmail.com)&nbsp;&nbsp;
-[![Play Store](https://img.shields.io/badge/◈_PLAY_STORE-5_apps_live-00ff88?style=flat-square&labelColor=020408&color=020408)](https://play.google.com/store)
+[![Play Store](https://img.shields.io/badge/◈_PLAY_STORE-5_apps_deployed-00ff88?style=flat-square&labelColor=020408&color=020408)](https://play.google.com/store)
 
 </div>
 
@@ -236,6 +465,137 @@ feat:    Aggregated fund tracking
 
 ---
 
+<!--  BOTTOM BANNER  -->
 <div align="center">
-<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjEzMCIgdmlld0JveD0iMCAwIDkwMCAxMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5iZ3tmaWxsOiMwMjA0MDh9Lmdse3N0cm9rZTojMGQxZjE0O3N0cm9rZS13aWR0aDouNTtmaWxsOm5vbmV9LmNpe3N0cm9rZTojMDBmZjg4O3N0cm9rZS13aWR0aDoxO2ZpbGw6bm9uZTtvcGFjaXR5Oi4yMn0uZ2xpbmV7c3Ryb2tlOiMwMGZmODg7c3Ryb2tlLXdpZHRoOjEuMjtmaWxsOm5vbmU7ZmlsdGVyOnVybCgjZ2xvdyl9CiAgICAgIC5tbntmb250LWZhbWlseTonQ291cmllciBOZXcnLG1vbm9zcGFjZTtmb250LXNpemU6MTJweDtmaWxsOiMwMGZmODg7bGV0dGVyLXNwYWNpbmc6NHB4fQogICAgICAubWR7Zm9udC1mYW1pbHk6J0NvdXJpZXIgTmV3Jyxtb25vc3BhY2U7Zm9udC1zaXplOjlweDtmaWxsOiMwMDRkMmE7bGV0dGVyLXNwYWNpbmc6MnB4fQogICAgICAuY3R7Zm9udC1mYW1pbHk6J0NvdXJpZXIgTmV3Jyxtb25vc3BhY2U7Zm9udC1zaXplOjhweDtmaWxsOiMwMGZmODg0NDtsZXR0ZXItc3BhY2luZzoxcHh9CiAgICAgIC5pdHtmb250LWZhbWlseTonQ291cmllciBOZXcnLG1vbm9zcGFjZTtmb250LXNpemU6MTBweDtmb250LXdlaWdodDpib2xkfQogICAgPC9zdHlsZT4KICAgIDxmaWx0ZXIgaWQ9Imdsb3ciIHg9Ii02MCUiIHk9Ii02MCUiIHdpZHRoPSIyMjAlIiBoZWlnaHQ9IjIyMCUiPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiByZXN1bHQ9ImIxIi8+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMS41IiByZXN1bHQ9ImIyIi8+CiAgICAgIDxmZU1lcmdlPjxmZU1lcmdlTm9kZSBpbj0iYjEiLz48ZmVNZXJnZU5vZGUgaW49ImIyIi8+PGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9mZU1lcmdlPgogICAgPC9maWx0ZXI+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRnMSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGZmODgiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iNTUlIiBzdG9wLWNvbG9yPSIjMDBmZjg4IiBzdG9wLW9wYWNpdHk9Ii41Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBmZjg4IiBzdG9wLW9wYWNpdHk9IjEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0ZzIiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBlNWZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzAwZTVmZiIgc3RvcC1vcGFjaXR5PSIuNDUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGU1ZmYiIHN0b3Atb3BhY2l0eT0iLjkiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0ZzMiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWRlOWI2IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzFkZTliNiIgc3RvcC1vcGFjaXR5PSIuNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkZTliNiIgc3RvcC1vcGFjaXR5PSIuODUiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJuZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGNjNjYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2FhZmZjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwY2M2NiIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImZsIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDQwOCIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDIwNDA4IiBzdG9wLW9wYWNpdHk9IjAiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJmciIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMjA0MDgiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAyMDQwOCIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iMTMwIiBjbGFzcz0iYmciLz4KICA8bGluZSB4MT0iMCIgeTE9IjMyIiB4Mj0iOTAwIiB5Mj0iMzIiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSIwIiB5MT0iNjUiIHgyPSI5MDAiIHkyPSI2NSIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjAiIHkxPSI5OCIgeDI9IjkwMCIgeTI9Ijk4IiBjbGFzcz0iZ2wiLz4KICA8bGluZSB4MT0iMTUwIiB5MT0iMCIgeDI9IjE1MCIgeTI9IjEzMCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9IjMwMCIgeTE9IjAiIHgyPSIzMDAiIHkyPSIxMzAiIGNsYXNzPSJnbCIvPjxsaW5lIHgxPSI0NTAiIHkxPSIwIiB4Mj0iNDUwIiB5Mj0iMTMwIiBjbGFzcz0iZ2wiLz48bGluZSB4MT0iNjAwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjEzMCIgY2xhc3M9ImdsIi8+PGxpbmUgeDE9Ijc1MCIgeTE9IjAiIHgyPSI3NTAiIHkyPSIxMzAiIGNsYXNzPSJnbCIvPgoKICA8cGF0aCBkPSJNIDAgMzIgTCA4MCAzMiBMIDgwIDUyIEwgMTY1IDUyIEwgMTY1IDcyIEwgMjMwIDcyIiBjbGFzcz0iY2kiLz4KICA8cGF0aCBkPSJNIDkwMCAzMiBMIDgyMCAzMiBMIDgyMCA1MiBMIDczNSA1MiBMIDczNSA3MiBMIDY3MCA3MiIgY2xhc3M9ImNpIi8+CiAgPHBhdGggZD0iTSAwIDMyIEwgODAgMzIgTCA4MCA1MiBMIDE2NSA1MiBMIDE2NSA3MiBMIDIzMCA3MiIgY2xhc3M9ImdsaW5lIiBzdHJva2UtZGFzaGFycmF5PSI5IDUiIG9wYWNpdHk9Ii41Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgZnJvbT0iNzAiIHRvPSIwIiBkdXI9IjIuM3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9wYXRoPgogIDxwYXRoIGQ9Ik0gOTAwIDMyIEwgODIwIDMyIEwgODIwIDUyIEwgNzM1IDUyIEwgNzM1IDcyIEwgNjcwIDcyIiBjbGFzcz0iZ2xpbmUiIHN0cm9rZS1kYXNoYXJyYXk9IjkgNSIgb3BhY2l0eT0iLjUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBmcm9tPSIwIiB0bz0iNzAiIGR1cj0iMi45cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+CiAgPGNpcmNsZSBjeD0iODAiIGN5PSI1MiIgcj0iMi41IiBmaWxsPSIjMDBmZjg4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9Ii4zOzE7LjMiIGR1cj0iMi4zcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT4KICA8Y2lyY2xlIGN4PSIxNjUiIGN5PSI3MiIgcj0iMi41IiBmaWxsPSIjMDBmZjg4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjM7MSIgZHVyPSIyLjNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9IjgyMCIgY3k9IjUyIiByPSIyLjUiIGZpbGw9IiMwMGZmODgiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iLjM7MTsuMyIgZHVyPSIyLjlzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9IjczNSIgY3k9IjcyIiByPSIyLjUiIGZpbGw9IiMwMGZmODgiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTsuMzsxIiBkdXI9IjIuOXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+CgogIDwhLS0gTUVURU9SUyAtLT4KICA8ZyBvcGFjaXR5PSIuOSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIHZhbHVlcz0iLTEwMCwyMDsgMTAxMCwxMDAiIGR1cj0iNHMiIGJlZ2luPSIwLjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iLTgwIiB5PSItMyIgd2lkdGg9IjgwIiBoZWlnaHQ9IjIuOCIgZmlsbD0idXJsKCN0ZzEpIiByeD0iMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8Y2lyY2xlIHI9IjExIiBmaWxsPSIjMDI1NjlCIiBzdHJva2U9IiM1NEM1RjgiIHN0cm9rZS13aWR0aD0iMS4yIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii01IiB5PSI0LjUiIGNsYXNzPSJpdCIgZmlsbD0iIzU0QzVGOCIgZm9udC1zaXplPSIxMyI+RjwvdGV4dD4KICA8L2c+CiAgPGcgb3BhY2l0eT0iLjg4Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSIxMDAwLDE1OyAtOTAsMTA1IiBkdXI9IjQuNnMiIGJlZ2luPSIxLjVzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgY2FsY01vZGU9ImxpbmVhciIvPgogICAgPHJlY3QgeD0iNCIgeT0iLTMiIHdpZHRoPSI4MCIgaGVpZ2h0PSIyLjgiIGZpbGw9InVybCgjdGcyKSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIgdHJhbnNmb3JtPSJzY2FsZSgtMSwxKSIvPgogICAgPGNpcmNsZSByPSIxMSIgZmlsbD0iIzAxNzVDMiIgc3Ryb2tlPSIjMDBlNWZmIiBzdHJva2Utd2lkdGg9IjEuMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8dGV4dCB4PSItNSIgeT0iNC41IiBjbGFzcz0iaXQiIGZpbGw9IiMwMGU1ZmYiIGZvbnQtc2l6ZT0iMTIiPkQ8L3RleHQ+CiAgPC9nPgogIDxnIG9wYWNpdHk9Ii44Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSItODAsNjA7IDEwMDAsMzAiIGR1cj0iMy41cyIgYmVnaW49IjIuOHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIi8+CiAgICA8cmVjdCB4PSItNzAiIHk9Ii0yLjUiIHdpZHRoPSI3MCIgaGVpZ2h0PSIyLjIiIGZpbGw9InVybCgjdGczKSIgcng9IjIiIGZpbHRlcj0idXJsKCNnbG93KSIvPgogICAgPGNpcmNsZSByPSIxMCIgZmlsbD0iIzBkMWYxNCIgc3Ryb2tlPSIjMWRlOWI2IiBzdHJva2Utd2lkdGg9IjEuMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIi8+CiAgICA8dGV4dCB4PSItNyIgeT0iNCIgY2xhc3M9Iml0IiBmaWxsPSIjMWRlOWI2IiBmb250LXNpemU9IjguNSI+Jmx0Oy8mZ3Q7PC90ZXh0PgogIDwvZz4KICA8ZyBvcGFjaXR5PSIuNzUiPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiB2YWx1ZXM9IjEwMTAsODA7IC03MCwxNSIgZHVyPSI1cyIgYmVnaW49IjAuNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIi8+CiAgICA8cmVjdCB4PSI0IiB5PSItMi41IiB3aWR0aD0iNjgiIGhlaWdodD0iMiIgZmlsbD0idXJsKCN0ZzEpIiByeD0iMiIgZmlsdGVyPSJ1cmwoI2dsb3cpIiB0cmFuc2Zvcm09InNjYWxlKC0xLDEpIi8+CiAgICA8Y2lyY2xlIHI9IjEwIiBmaWxsPSIjMDA0ZDJhIiBzdHJva2U9IiMwMGZmODgiIHN0cm9rZS13aWR0aD0iMS4xIiBmaWx0ZXI9InVybCgjZ2xvdykiLz4KICAgIDx0ZXh0IHg9Ii05LjUiIHk9IjMuNSIgY2xhc3M9Iml0IiBmaWxsPSIjMDBmZjg4IiBmb250LXNpemU9IjcuNSI+QVBJPC90ZXh0PgogIDwvZz4KCiAgPCEtLSBDZW50ZXIgdGV4dCAtLT4KICA8dGV4dCB4PSI0NTAiIHk9IjU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibW4iIGZpbGw9InVybCgjbmcpIiBmaWx0ZXI9InVybCgjZ2xvdykiPiZsdDsgQlVJTERJTkcgV0hBVCBNQVRURVJTIMK3IEZMVVRURVIgREVWRUxPUEVSIC8mZ3Q7PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuODsxOy44IiBkdXI9IjMuNXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC90ZXh0PgogIDx0ZXh0IHg9IjQ1MCIgeT0iNzYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJtZCI+wrcgRklOVEVDSCDCtyBNT0JJTEUgwrcgQ0xFQU4gQVJDSElURUNUVVJFIMK3IE9QRU4gVE8gQ09MTEFCT1JBVEUgwrc8L3RleHQ+CiAgPHJlY3QgeD0iNjY0IiB5PSI2MyIgd2lkdGg9IjYiIGhlaWdodD0iMTAiIGZpbGw9IiMwMGZmODgiIG9wYWNpdHk9Ii43Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9Ii43OzA7LjciIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9yZWN0PgoKICA8IS0tIENvcm5lcnMgLS0+CiAgPHBhdGggZD0iTSAyMCAxMCBMIDEwIDEwIEwgMTAgMjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9Ii45Ii8+CiAgPHBhdGggZD0iTSA4ODAgMTAgTCA4OTAgMTAgTCA4OTAgMjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9Ii45Ii8+CiAgPHBhdGggZD0iTSAyMCAxMjAgTCAxMCAxMjAgTCAxMCAxMDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9Ii45Ii8+CiAgPHBhdGggZD0iTSA4ODAgMTIwIEwgODkwIDEyMCBMIDg5MCAxMDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY4OCIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9Ii45Ii8+CiAgPHRleHQgeD0iMTQiIHk9IjkiIGNsYXNzPSJjdCI+RU9GPC90ZXh0PgogIDx0ZXh0IHg9Ijg0MCIgeT0iOSIgY2xhc3M9ImN0Ij5CVUlMRDpPSzwvdGV4dD4KICA8dGV4dCB4PSIxNCIgeT0iMTI4IiBjbGFzcz0iY3QiPjIwMjU8L3RleHQ+CiAgPHRleHQgeD0iODA2IiB5PSIxMjgiIGNsYXNzPSJjdCI+YWJoaWppdGhwNjU8L3RleHQ+CgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5MDAiIGhlaWdodD0iMyIgZmlsbD0iIzAwZmY4OCIgb3BhY2l0eT0iLjAyNSI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ieSIgZnJvbT0iLTMiIHRvPSIxMzMiIGR1cj0iM3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9yZWN0PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTMwIiBmaWxsPSJ1cmwoI2ZsKSIvPgogIDxyZWN0IHg9Ijc2MCIgeT0iMCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSIxMzAiIGZpbGw9InVybCgjZnIpIi8+Cjwvc3ZnPgo=" width="100%" alt="— EOF —"/>
+<svg width="900" height="130" viewBox="0 0 900 130" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.bg2{fill:#020408}.gl2{stroke:#0d1f14;stroke-width:.5;fill:none}
+.ci2{stroke:#00ff88;stroke-width:1;fill:none;opacity:.22}
+.gl2p{stroke:#00ff88;stroke-width:1.2;fill:none;filter:url(#glow2)}
+.mn2{font-family:'Courier New',monospace;font-size:12px;fill:#00ff88;letter-spacing:4px}
+.md2{font-family:'Courier New',monospace;font-size:9px;fill:#004d2a;letter-spacing:2px}
+.ct2{font-family:'Courier New',monospace;font-size:8px;fill:#00ff8844;letter-spacing:1px}
+.it2{font-family:'Courier New',monospace;font-size:10px;font-weight:bold}
+</style>
+<filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="3" result="b1"/>
+  <feGaussianBlur stdDeviation="1.5" result="b2"/>
+  <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="bt1" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00ff88" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00ff88" stop-opacity=".5"/>
+  <stop offset="100%" stop-color="#00ff88" stop-opacity="1"/>
+</linearGradient>
+<linearGradient id="bt2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00e5ff" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00e5ff" stop-opacity=".45"/>
+  <stop offset="100%" stop-color="#00e5ff" stop-opacity=".9"/>
+</linearGradient>
+<linearGradient id="bt3" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#1de9b6" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#1de9b6" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#1de9b6" stop-opacity=".85"/>
+</linearGradient>
+<linearGradient id="bng" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00cc66"/>
+  <stop offset="50%"  stop-color="#aaffcc"/>
+  <stop offset="100%" stop-color="#00cc66"/>
+</linearGradient>
+<linearGradient id="bfl" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="1"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="bfr" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="1"/>
+</linearGradient>
+</defs>
+
+<rect width="900" height="130" class="bg2"/>
+
+<!-- Grid -->
+<line x1="0"   y1="32"  x2="900" y2="32"  class="gl2"/>
+<line x1="0"   y1="65"  x2="900" y2="65"  class="gl2"/>
+<line x1="0"   y1="98"  x2="900" y2="98"  class="gl2"/>
+<line x1="150" y1="0"   x2="150" y2="130" class="gl2"/>
+<line x1="300" y1="0"   x2="300" y2="130" class="gl2"/>
+<line x1="450" y1="0"   x2="450" y2="130" class="gl2"/>
+<line x1="600" y1="0"   x2="600" y2="130" class="gl2"/>
+<line x1="750" y1="0"   x2="750" y2="130" class="gl2"/>
+
+<!-- Circuit static -->
+<path d="M 0 32 L 80 32 L 80 52 L 165 52 L 165 72 L 230 72" class="ci2"/>
+<path d="M 900 32 L 820 32 L 820 52 L 735 52 L 735 72 L 670 72" class="ci2"/>
+
+<!-- Circuit animated -->
+<path d="M 0 32 L 80 32 L 80 52 L 165 52 L 165 72 L 230 72" class="gl2p" stroke-dasharray="9 5" opacity=".5">
+  <animate attributeName="stroke-dashoffset" from="70" to="0" dur="2.3s" repeatCount="indefinite"/>
+</path>
+<path d="M 900 32 L 820 32 L 820 52 L 735 52 L 735 72 L 670 72" class="gl2p" stroke-dasharray="9 5" opacity=".5">
+  <animate attributeName="stroke-dashoffset" from="0" to="70" dur="2.9s" repeatCount="indefinite"/>
+</path>
+
+<!-- Nodes -->
+<circle cx="80"  cy="52" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.3s" repeatCount="indefinite"/></circle>
+<circle cx="165" cy="72" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.3s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="52" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="735" cy="72" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.9s" repeatCount="indefinite"/></circle>
+
+<!-- Bottom meteors -->
+<g opacity=".9">
+  <animateTransform attributeName="transform" type="translate" values="-100,20; 1010,100" dur="4s" begin="0.2s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-80" y="-3" width="80" height="2.8" fill="url(#bt1)" rx="2" filter="url(#glow2)"/>
+  <circle r="11" fill="#02569B" stroke="#54C5F8" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-5" y="4.5" class="it2" fill="#54C5F8" font-size="13">F</text>
+</g>
+<g opacity=".88">
+  <animateTransform attributeName="transform" type="translate" values="1000,15; -90,105" dur="4.6s" begin="1.5s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-3" width="80" height="2.8" fill="url(#bt2)" rx="2" filter="url(#glow2)" transform="scale(-1,1)"/>
+  <circle r="11" fill="#0175C2" stroke="#00e5ff" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-5" y="4.5" class="it2" fill="#00e5ff" font-size="12">D</text>
+</g>
+<g opacity=".8">
+  <animateTransform attributeName="transform" type="translate" values="-80,60; 1000,30" dur="3.5s" begin="2.8s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-70" y="-2.5" width="70" height="2.2" fill="url(#bt3)" rx="2" filter="url(#glow2)"/>
+  <circle r="10" fill="#0d1f14" stroke="#1de9b6" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-7" y="4" class="it2" fill="#1de9b6" font-size="8.5">&lt;/&gt;</text>
+</g>
+<g opacity=".75">
+  <animateTransform attributeName="transform" type="translate" values="1010,80; -70,15" dur="5s" begin="0.6s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-2.5" width="68" height="2" fill="url(#bt1)" rx="2" filter="url(#glow2)" transform="scale(-1,1)"/>
+  <circle r="10" fill="#004d2a" stroke="#00ff88" stroke-width="1.1" filter="url(#glow2)"/>
+  <text x="-9.5" y="3.5" class="it2" fill="#00ff88" font-size="7.5">API</text>
+</g>
+
+<!-- Center text -->
+<text x="450" y="55" text-anchor="middle" class="mn2" fill="url(#bng)" filter="url(#glow2)">
+  &lt; BUILDING WHAT MATTERS · FLUTTER DEVELOPER /&gt;
+  <animate attributeName="opacity" values=".8;1;.8" dur="3.5s" repeatCount="indefinite"/>
+</text>
+<text x="450" y="76" text-anchor="middle" class="md2">· FINTECH · MOBILE · CLEAN ARCHITECTURE · OPEN TO COLLABORATE ·</text>
+
+<!-- Blinking cursor -->
+<rect x="664" y="63" width="6" height="10" fill="#00ff88" opacity=".7">
+  <animate attributeName="opacity" values=".7;0;.7" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Corners -->
+<path d="M 20 10 L 10 10 L 10 22"     fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 880 10 L 890 10 L 890 22"  fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 20 120 L 10 120 L 10 108"   fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 880 120 L 890 120 L 890 108" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<text x="14"  y="9"   class="ct2">EOF</text>
+<text x="840" y="9"   class="ct2">BUILD:OK</text>
+<text x="14"  y="128" class="ct2">2025</text>
+<text x="806" y="128" class="ct2">abhijithp65</text>
+
+<!-- Scanline + edge fades -->
+<rect x="0" y="0" width="900" height="3" fill="#00ff88" opacity=".025">
+  <animate attributeName="y" from="-3" to="133" dur="3s" repeatCount="indefinite"/>
+</rect>
+<rect x="0"   y="0" width="140" height="130" fill="url(#bfl)"/>
+<rect x="760" y="0" width="140" height="130" fill="url(#bfr)"/>
+</svg>
 </div>
