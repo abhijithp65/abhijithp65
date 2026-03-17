@@ -12,8 +12,8 @@
 
 <div align="center">
 
-[![](https://img.shields.io/badge/👁️_Profile_Views-komarev-0d1117?style=for-the-badge&labelColor=0d1117&color=00ff88)](https://komarev.com/ghpvc/?username=abhijithp65)&nbsp;
-[![GitHub Followers](https://img.shields.io/github/followers/abhijithp65?style=for-the-badge&logo=github&labelColor=0d1117&color=00ff88&label=Followers)](https://github.com/abhijithp65)
+![profile views](https://komarev.com/ghpvc/?username=abhijithp65&color=00ff88)&nbsp;
+[![GitHub abhijithp65](https://img.shields.io/github/followers/abhijithp65?label=follow&style=social)](https://github.com/abhijithp65)&nbsp;
 
 <br/>
 
@@ -146,4 +146,5 @@
 ---
 
 <p align="center">
-  <img src="banner-bot
+  <img src="banner-bottom.svg?v=2" width="100%" alt="footer"/>
+</p>
