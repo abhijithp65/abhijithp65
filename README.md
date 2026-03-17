@@ -78,7 +78,6 @@
 
 ---
 
-
 <p align="center">
-  <img src="banner-bottom.svg" width="100%" alt="footer"/>
+  <img src="banner-bottom.svg?v=2" width="100%" alt="footer"/>
 </p>
