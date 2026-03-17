@@ -9,7 +9,6 @@
 <p align="center">
 <svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<style>.bg{fill:#020408}.gl{stroke:#0d1f14;stroke-width:.5;fill:none}.ci{stroke:#00ff88;stroke-width:1;fill:none;opacity:.22}.gline{stroke:#00ff88;stroke-width:1.2;fill:none;filter:url(#glow)}.nm{font-family:'Courier New',monospace;font-weight:900;font-size:44px;letter-spacing:14px}.sb{font-family:'Courier New',monospace;font-size:11.5px;fill:#00ff88;letter-spacing:5px}.tg{font-family:'Courier New',monospace;font-size:9px;fill:#004d2a;letter-spacing:2px}.ct{font-family:'Courier New',monospace;font-size:8px;fill:#00ff8844;letter-spacing:1px}.it{font-family:'Courier New',monospace;font-size:11px;font-weight:bold}</style>
 <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b1"/><feGaussianBlur stdDeviation="1.5" result="b2"/><feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <linearGradient id="tg1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ff88" stop-opacity="0"/><stop offset="55%" stop-color="#00ff88" stop-opacity=".5"/><stop offset="100%" stop-color="#00ff88" stop-opacity="1"/></linearGradient>
 <linearGradient id="tg2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/><stop offset="55%" stop-color="#00e5ff" stop-opacity=".45"/><stop offset="100%" stop-color="#00e5ff" stop-opacity=".9"/></linearGradient>
