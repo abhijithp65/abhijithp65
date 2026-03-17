@@ -1,0 +1,143 @@
+<svg width="900" height="130" viewBox="0 0 900 130" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.bg2{fill:#020408}
+.gl2{stroke:#0d1f14;stroke-width:.5;fill:none}
+.ci2{stroke:#00ff88;stroke-width:1;fill:none;opacity:.22}
+.gl2p{stroke:#00ff88;stroke-width:1.2;fill:none;filter:url(#glow2)}
+.mn2{font-family:'Courier New',monospace;font-size:12px;fill:#00ff88;letter-spacing:4px}
+.md2{font-family:'Courier New',monospace;font-size:9px;fill:#004d2a;letter-spacing:2px}
+.ct2{font-family:'Courier New',monospace;font-size:8px;fill:#00ff8844;letter-spacing:1px}
+.it2{font-family:'Courier New',monospace;font-size:10px;font-weight:bold}
+</style>
+
+<filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="3" result="b1"/>
+  <feGaussianBlur stdDeviation="1.5" result="b2"/>
+  <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+
+<linearGradient id="bt1" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00ff88" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00ff88" stop-opacity=".5"/>
+  <stop offset="100%" stop-color="#00ff88" stop-opacity="1"/>
+</linearGradient>
+<linearGradient id="bt2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00e5ff" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#00e5ff" stop-opacity=".45"/>
+  <stop offset="100%" stop-color="#00e5ff" stop-opacity=".9"/>
+</linearGradient>
+<linearGradient id="bt3" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#1de9b6" stop-opacity="0"/>
+  <stop offset="55%"  stop-color="#1de9b6" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#1de9b6" stop-opacity=".85"/>
+</linearGradient>
+<linearGradient id="bng" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00cc66"/>
+  <stop offset="50%"  stop-color="#aaffcc"/>
+  <stop offset="100%" stop-color="#00cc66"/>
+</linearGradient>
+<linearGradient id="bfl" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="1"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="bfr" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#020408" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#020408" stop-opacity="1"/>
+</linearGradient>
+</defs>
+
+<!-- BG -->
+<rect width="900" height="130" class="bg2"/>
+
+<!-- Grid -->
+<line x1="0"   y1="32"  x2="900" y2="32"  class="gl2"/>
+<line x1="0"   y1="65"  x2="900" y2="65"  class="gl2"/>
+<line x1="0"   y1="98"  x2="900" y2="98"  class="gl2"/>
+<line x1="150" y1="0"   x2="150" y2="130" class="gl2"/>
+<line x1="300" y1="0"   x2="300" y2="130" class="gl2"/>
+<line x1="450" y1="0"   x2="450" y2="130" class="gl2"/>
+<line x1="600" y1="0"   x2="600" y2="130" class="gl2"/>
+<line x1="750" y1="0"   x2="750" y2="130" class="gl2"/>
+
+<!-- Circuit static -->
+<path d="M 0 32 L 80 32 L 80 52 L 165 52 L 165 72 L 230 72" class="ci2"/>
+<path d="M 900 32 L 820 32 L 820 52 L 735 52 L 735 72 L 670 72" class="ci2"/>
+
+<!-- Circuit animated -->
+<path d="M 0 32 L 80 32 L 80 52 L 165 52 L 165 72 L 230 72" class="gl2p" stroke-dasharray="9 5" opacity=".5">
+  <animate attributeName="stroke-dashoffset" from="70" to="0" dur="2.3s" repeatCount="indefinite"/>
+</path>
+<path d="M 900 32 L 820 32 L 820 52 L 735 52 L 735 72 L 670 72" class="gl2p" stroke-dasharray="9 5" opacity=".5">
+  <animate attributeName="stroke-dashoffset" from="0" to="70" dur="2.9s" repeatCount="indefinite"/>
+</path>
+
+<!-- Nodes -->
+<circle cx="80"  cy="52" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.3s" repeatCount="indefinite"/></circle>
+<circle cx="165" cy="72" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.3s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="52" r="2.5" fill="#00ff88"><animate attributeName="opacity" values=".3;1;.3" dur="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="735" cy="72" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;.3;1"  dur="2.9s" repeatCount="indefinite"/></circle>
+
+<!-- METEOR 1: Flutter -->
+<g opacity=".9">
+  <animateTransform attributeName="transform" type="translate" values="-100,20; 1010,100" dur="4s" begin="0.2s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-80" y="-3" width="80" height="2.8" fill="url(#bt1)" rx="2" filter="url(#glow2)"/>
+  <circle r="11" fill="#02569B" stroke="#54C5F8" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-5" y="4.5" class="it2" fill="#54C5F8" font-size="13">F</text>
+</g>
+
+<!-- METEOR 2: Dart -->
+<g opacity=".88">
+  <animateTransform attributeName="transform" type="translate" values="1000,15; -90,105" dur="4.6s" begin="1.5s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-3" width="80" height="2.8" fill="url(#bt2)" rx="2" filter="url(#glow2)" transform="scale(-1,1)"/>
+  <circle r="11" fill="#0175C2" stroke="#00e5ff" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-5" y="4.5" class="it2" fill="#00e5ff" font-size="12">D</text>
+</g>
+
+<!-- METEOR 3: Code -->
+<g opacity=".8">
+  <animateTransform attributeName="transform" type="translate" values="-80,60; 1000,30" dur="3.5s" begin="2.8s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="-70" y="-2.5" width="70" height="2.2" fill="url(#bt3)" rx="2" filter="url(#glow2)"/>
+  <circle r="10" fill="#0d1f14" stroke="#1de9b6" stroke-width="1.2" filter="url(#glow2)"/>
+  <text x="-7" y="4" class="it2" fill="#1de9b6" font-size="8.5">&lt;/&gt;</text>
+</g>
+
+<!-- METEOR 4: API -->
+<g opacity=".75">
+  <animateTransform attributeName="transform" type="translate" values="1010,80; -70,15" dur="5s" begin="0.6s" repeatCount="indefinite" calcMode="linear"/>
+  <rect x="4" y="-2.5" width="68" height="2" fill="url(#bt1)" rx="2" filter="url(#glow2)" transform="scale(-1,1)"/>
+  <circle r="10" fill="#004d2a" stroke="#00ff88" stroke-width="1.1" filter="url(#glow2)"/>
+  <text x="-9.5" y="3.5" class="it2" fill="#00ff88" font-size="7.5">API</text>
+</g>
+
+<!-- Center text -->
+<text x="450" y="55" text-anchor="middle" class="mn2" fill="url(#bng)" filter="url(#glow2)">
+  &lt; BUILDING WHAT MATTERS · FLUTTER DEVELOPER /&gt;
+  <animate attributeName="opacity" values=".8;1;.8" dur="3.5s" repeatCount="indefinite"/>
+</text>
+<text x="450" y="76" text-anchor="middle" class="md2">· FINTECH · MOBILE · CLEAN ARCHITECTURE · OPEN TO COLLABORATE ·</text>
+
+<!-- Blinking cursor -->
+<rect x="664" y="63" width="6" height="10" fill="#00ff88" opacity=".7">
+  <animate attributeName="opacity" values=".7;0;.7" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Corners -->
+<path d="M 20 10 L 10 10 L 10 22"     fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 880 10 L 890 10 L 890 22"  fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 20 120 L 10 120 L 10 108"   fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<path d="M 880 120 L 890 120 L 890 108" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
+<text x="14"  y="9"   class="ct2">EOF</text>
+<text x="840" y="9"   class="ct2">BUILD:OK</text>
+<text x="14"  y="128" class="ct2">2025</text>
+<text x="806" y="128" class="ct2">abhijithp65</text>
+
+<!-- Scanline -->
+<rect x="0" y="0" width="900" height="3" fill="#00ff88" opacity=".025">
+  <animate attributeName="y" from="-3" to="133" dur="3s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Edge fades -->
+<rect x="0"   y="0" width="140" height="130" fill="url(#bfl)"/>
+<rect x="760" y="0" width="140" height="130" fill="url(#bfr)"/>
+</svg>
