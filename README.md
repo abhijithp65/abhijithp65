@@ -6,12 +6,6 @@
 
 ---
 
-<p align="center">
-  <img src="banner-top.svg" width="100%" alt="Abhijith P — Flutter Developer"/>
-</p>
-
----
-
 ![profile views](https://komarev.com/ghpvc/?username=abhijithp65&color=00ff88)&nbsp;
 [![GitHub followers](https://img.shields.io/github/followers/abhijithp65?label=follow&style=social)](https://github.com/abhijithp65)
 
