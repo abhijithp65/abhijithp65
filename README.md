@@ -1,5 +1,9 @@
 <h1 align="center">Hello World, I'm Abhijith P 👋</h1>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7c46cb22-b4d5-45be-a806-4fdcfcc5f011" width="100%" alt="Abhijith P Banner"/>
+</p>
+
 ---
 
 <p align="center">
@@ -84,7 +88,7 @@
 ### 📫 &nbsp;How to reach me
 
 <a href="https://www.linkedin.com/in/abhijith-p-2273b6113/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="mailto:abhijithpinfo@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="/cdn-cgi/l/email-protection#9afbf8f2f3f0f3eef2eaf3f4fcf5dafdf7fbf3f6b4f9f5f7"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>&nbsp;
 <a href="https://abhijithp65.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-00C853?style=flat&logo=githubpages&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/abhijithp65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a>
 
@@ -168,6 +172,4 @@
 <path d="M 20 10 L 10 10 L 10 22" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/><path d="M 880 10 L 890 10 L 890 22" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/><path d="M 20 120 L 10 120 L 10 108" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/><path d="M 880 120 L 890 120 L 890 108" fill="none" stroke="#00ff88" stroke-width="1.5" opacity=".9"/>
 <text x="14" y="9" class="ct2">EOF</text><text x="840" y="9" class="ct2">BUILD:OK</text><text x="14" y="128" class="ct2">2025</text><text x="806" y="128" class="ct2">abhijithp65</text>
 <rect x="0" y="0" width="900" height="3" fill="#00ff88" opacity=".025"><animate attributeName="y" from="-3" to="133" dur="3s" repeatCount="indefinite"/></rect>
-<rect x="0" y="0" width="140" height="130" fill="url(#bfl)"/><rect x="760" y="0" width="140" height="130" fill="url(#bfr)"/>
-</svg>
-</div>
+<rect x="0" y="0" width="140" height="130" fill="url(#bfl)"/><rect x="760" y="0" width="140"
