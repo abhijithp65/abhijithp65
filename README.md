@@ -12,11 +12,15 @@
 
 <div align="center">
 
-![profile views](https://komarev.com/ghpvc/?username=abhijithp65&color=00ff88&style=flat-square)&nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/abhijithp65?label=follow&style=social)](https://github.com/abhijithp65)&nbsp;
-![](https://img.shields.io/badge/Focus-Fintech%20Mobile-00ff88?style=flat-square&labelColor=020408)&nbsp;
-![](https://img.shields.io/badge/Apps-5%20on%20Play%20Store-00ff88?style=flat-square&labelColor=020408)&nbsp;
-![](https://img.shields.io/badge/Users-50K%2B-00ff88?style=flat-square&labelColor=020408)
+[![](https://img.shields.io/badge/👁️_Profile_Views-komarev-0d1117?style=for-the-badge&labelColor=0d1117&color=00ff88)](https://komarev.com/ghpvc/?username=abhijithp65)&nbsp;
+[![GitHub Followers](https://img.shields.io/github/followers/abhijithp65?style=for-the-badge&logo=github&labelColor=0d1117&color=00ff88&label=Followers)](https://github.com/abhijithp65)
+
+<br/>
+
+![](https://img.shields.io/badge/⚡_Focus-Fintech%20%26%20Mobile-0d1117?style=for-the-badge&labelColor=0d1117&color=0175C2)&nbsp;
+![](https://img.shields.io/badge/📱_Apps-5%20on%20Play%20Store-0d1117?style=for-the-badge&labelColor=0d1117&color=01875f)&nbsp;
+![](https://img.shields.io/badge/👥_Users-50%2C000%2B%20Active-0d1117?style=for-the-badge&labelColor=0d1117&color=e05d44)&nbsp;
+![](https://img.shields.io/badge/📍_Based_In-Bangalore%2C%20India-0d1117?style=for-the-badge&labelColor=0d1117&color=8957e5)
 
 </div>
 
@@ -37,7 +41,7 @@
 ### 📫 &nbsp;How to reach me
 
 <a href="https://www.linkedin.com/in/abhijith-p-2273b6113/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="mailto:abhijithpinfo@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="/cdn-cgi/l/email-protection#78191a101112110c100811161e17381f15191114561b1715"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
 <a href="https://abhijithp65.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=githubpages&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/abhijithp65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
@@ -142,5 +146,4 @@
 ---
 
 <p align="center">
-  <img src="banner-bottom.svg?v=2" width="100%" alt="footer"/>
-</p>
+  <img src="banner-bot
