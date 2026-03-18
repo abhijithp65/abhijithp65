@@ -38,16 +38,6 @@
 
 ---
 
-### 🚀 &nbsp;Deployed Apps
-
-| App | Description | Tech Stack |
-|-----|-------------|------------|
-| [Rise Pro]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.mutualfundapp.ipo&hl=en_IN)) | Mutual Fund · IPO · NFO platform | Flutter · BLoC · FCM · CleverTap · DevRev |
-| [Alice Blue eKYC]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.ekyc&hl=en_IN)) | Digital KYC for demat account opening | Flutter · Provider · Hyperverge · Digio |
-| [AB Pulse]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.partner.dashboard.partner_dashboard_app&hl=en_IN)) | Trading signals & subscription platform | Flutter · Provider · CleverTap · Payment Gateway |
-
----
-
 ### 🛠 &nbsp;Tech Stack
 
 #### 📱 Mobile & Framework
