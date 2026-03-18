@@ -38,15 +38,13 @@
 
 ---
 
-### 🚀 &nbsp;Deployed Apps on Play Store
+### 🚀 &nbsp;Deployed Apps
 
 | App | Description | Tech Stack |
 |-----|-------------|------------|
-| [Rise Pro](https://play.google.com/store) | Mutual Fund · IPO · NFO platform | Flutter · BLoC · FCM · CleverTap · DevRev |
-| [Alice Blue eKYC](https://play.google.com/store) | Digital KYC for demat account opening | Flutter · Provider · Hyperverge · Digio |
-| [AB Pulse](https://play.google.com/store) | Trading signals & subscription platform | Flutter · Provider · CleverTap · Payment Gateway |
-| [AliceBlue PFM](https://play.google.com/store) | Personal finance & mutual fund tracker | Flutter · Provider · Setu One Money · Digio |
-| [Advisory App](https://play.google.com/store) | Partner referral & client management | Flutter · Riverpod · InAppWebView · DigiLink |
+| [Rise Pro]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.mutualfundapp.ipo&hl=en_IN)) | Mutual Fund · IPO · NFO platform | Flutter · BLoC · FCM · CleverTap · DevRev |
+| [Alice Blue eKYC]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.ekyc&hl=en_IN)) | Digital KYC for demat account opening | Flutter · Provider · Hyperverge · Digio |
+| [AB Pulse]([https://play.google.com/store](https://play.google.com/store/apps/details?id=com.aliceblue.partner.dashboard.partner_dashboard_app&hl=en_IN)) | Trading signals & subscription platform | Flutter · Provider · CleverTap · Payment Gateway |
 
 ---
 
