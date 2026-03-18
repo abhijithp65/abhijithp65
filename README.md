@@ -17,10 +17,10 @@
 
 <br/>
 
-![](https://img.shields.io/badge/⚡_Focus-Fintech%20%26%20Mobile-0d1117?style=for-the-badge&labelColor=0d1117&color=0175C2)&nbsp;
-![](https://img.shields.io/badge/📱_Apps-5%20on%20Play%20Store-0d1117?style=for-the-badge&labelColor=0d1117&color=01875f)&nbsp;
-![](https://img.shields.io/badge/👥_Users-50%2C000%2B%20Active-0d1117?style=for-the-badge&labelColor=0d1117&color=e05d44)&nbsp;
-![](https://img.shields.io/badge/📍_Based_In-Bangalore%2C%20India-0d1117?style=for-the-badge&labelColor=0d1117&color=8957e5)
+<a href="https://www.linkedin.com/in/abhijith-p-2273b6113/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="/cdn-cgi/l/email-protection#78191a101112110c100811161e17381f15191114561b1715"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="https://abhijithp65.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=githubpages&logoColor=white"/></a>&nbsp;
+<a href="https://github.com/abhijithp65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
@@ -28,22 +28,13 @@
 
 ### 👨🏻‍💻 &nbsp;About Me
 
-💡 &nbsp;Flutter Developer with **2+ years** of experience building production-grade cross-platform apps for iOS and Android.
+🔒 &nbsp;Passionate about **secure mobile development** — SSL pinning, biometric auth, and clean architecture.
 
-🚀 &nbsp;Currently at **Alice Blue Financial Services** — building fintech apps serving **50,000+ users.**\
-🔒 &nbsp;Specialized in **SSL pinning**, biometric auth, clean architecture, and secure REST API integration.\
-🌱 &nbsp;Always learning — currently exploring advanced Flutter animations and modern mobile patterns.\
-✍️ &nbsp;Apart from coding, I enjoy design, content creation, and sharing my journey publicly.\
+🌱 &nbsp;Always learning — currently exploring advanced Flutter animations and modern mobile patterns.
+
+✍️ &nbsp;Apart from coding, I enjoy design, content creation, and sharing my journey publicly.
+
 💬 &nbsp;Feel free to reach out for collaborations, consulting, or just a good tech chat!
-
----
-
-### 📫 &nbsp;How to reach me
-
-<a href="https://www.linkedin.com/in/abhijith-p-2273b6113/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="/cdn-cgi/l/email-protection#78191a101112110c100811161e17381f15191114561b1715"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
-<a href="https://abhijithp65.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=githubpages&logoColor=white"/></a>&nbsp;
-<a href="https://github.com/abhijithp65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 ---
 
