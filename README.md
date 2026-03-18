@@ -18,7 +18,9 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/abhijith-p-2273b6113/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="/cdn-cgi/l/email-protection#78191a101112110c100811161e17381f15191114561b1715"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="mailto:abhijithpinfo@gmail.com">
+<img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>&nbsp;
 <a href="https://abhijithp65.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=githubpages&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/abhijithp65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
