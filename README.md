@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Flutter+Developer+%7C+2%2B+Years;Fintech+Apps+%7C+50%2C000%2B+Users;Clean+Architecture+%7C+BLoC+%7C+Riverpod;Building+What+Matters+%F0%9F%9A%80" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Flutter+Developer;Clean+Architecture+%7C+BLoC+%7C+Riverpod;Fintech+%7C+Mobile+Apps;Building+What+Matters+%F0%9F%9A%80" alt="Typing SVG"/>
 </p>
 
 ---
