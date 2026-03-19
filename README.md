@@ -116,16 +116,6 @@
 
 ---
 
-### 🏆 &nbsp;GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=abhijithp65&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6"/>
-
-</div>
-
----
-
 <p align="center">
   <img src="banner-bottom.svg?v=2" width="100%" alt="footer"/>
 </p>
