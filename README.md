@@ -43,59 +43,22 @@
 ### 🛠 &nbsp;Tech Stack
 
 #### 📱 Mobile & Framework
-<p>
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
-<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white"/> </p>
 
 #### 🏗 Architecture & State Management
-<p>
-<img src="https://img.shields.io/badge/BLoC-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Provider-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-<img src="https://img.shields.io/badge/Riverpod-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-<img src="https://img.shields.io/badge/Clean_Architecture-00C853?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/MVVM-00C853?style=for-the-badge&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/BLoC-02569B?style=flat"/> <img src="https://img.shields.io/badge/Riverpod-0175C2?style=flat"/> <img src="https://img.shields.io/badge/Provider-0175C2?style=flat"/> <img src="https://img.shields.io/badge/Clean_Architecture-00C853?style=flat"/> <img src="https://img.shields.io/badge/MVVM-00C853?style=flat"/> </p>
 
 #### ☁️ Backend & Services
-<p>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/FCM-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/REST-FF6C37?style=flat"/> <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/> </p>
 
 #### 🔐 Security & Auth
-<p>
-<img src="https://img.shields.io/badge/SSL_Pinning-FF0000?style=for-the-badge&logo=letsencrypt&logoColor=white"/>
-<img src="https://img.shields.io/badge/Biometric_Auth-1A1A2E?style=for-the-badge&logo=fingerprint&logoColor=00ff88"/>
-<img src="https://img.shields.io/badge/Token_Auth-343434?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/Secure_Storage-343434?style=for-the-badge&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/SSL-FF0000?style=flat"/> <img src="https://img.shields.io/badge/Biometric-1A1A2E?style=flat"/> <img src="https://img.shields.io/badge/Token-343434?style=flat"/> <img src="https://img.shields.io/badge/Secure_Storage-343434?style=flat"/> </p>
 
 #### 🧰 Tools & DevOps
-<p>
-<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Play_Console-414141?style=for-the-badge&logo=googleplay&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Actions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat"/> </p>
 
 #### 🔗 Third-Party Integrations
-<p>
-<img src="https://img.shields.io/badge/Hyperverge-1A1A2E?style=for-the-badge&logoColor=00ff88"/>
-<img src="https://img.shields.io/badge/Digio-1A1A2E?style=for-the-badge&logoColor=00ff88"/>
-<img src="https://img.shields.io/badge/CleverTap-E94E2D?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/DevRev-1A1A2E?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Setu_OneMoney-1A1A2E?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Deep_Linking-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-</p>
+<p> <img src="https://img.shields.io/badge/Hyperverge-1A1A2E?style=flat"/> <img src="https://img.shields.io/badge/Digio-1A1A2E?style=flat"/> <img src="https://img.shields.io/badge/CleverTap-E94E2D?style=flat"/> <img src="https://img.shields.io/badge/DevRev-1A1A2E?style=flat"/> <img src="https://img.shields.io/badge/Setu-1A1A2E?style=flat"/> </p>
 
 ---
 
